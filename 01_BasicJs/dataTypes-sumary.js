@@ -28,3 +28,27 @@ const myObj = {
 function hablu(){
 
 }
+
+
+// ****************** Memory **********************
+
+// Stack (Primitive )   ____  Heap (Non-Primitive)
+
+const userName = "rony"
+let anotherName = userName;
+anotherName = "hablu"
+console.log(userName)
+console.log(anotherName)
+
+// heap 
+
+const userObj ={
+    email: "user@gmail.com",
+    id: 4
+}
+
+let userObj2 = userObj;
+userObj2.email = "user@google.com"
+
+console.log(userObj.email)
+console.log(userObj2.email)
