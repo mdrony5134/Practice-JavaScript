@@ -9,7 +9,7 @@ const friendsArr = ["hites", "nites", "challu", "kallu"]
 // numberArr.pop()
 // numberArr.unshift(9)
 // numberArr.shift()
-// const newArr = numberArr.join()
+// const newArr = numberArr.join() // string a convert kore array k
 // console.log(newArr)
 // console.log(numberArr)
  
