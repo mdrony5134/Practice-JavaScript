@@ -7,8 +7,8 @@ const stringName =  new String("Rony-ni-hasan")
 console.log(stringName[1])
 console.log(stringName.__proto__)
 console.log(stringName.toUpperCase())
-console.log(stringName.charAt(2)) 
-console.log(stringName.indexOf("n")) 
+console.log(stringName.charAt(2))  //Returns the character at the specified index.
+console.log(stringName.indexOf("n")) //Returns the position of the first occurrence of a substring.
 
 
 
@@ -24,8 +24,8 @@ console.log(newStringTwo.trim())
 const url = "https//rony.com/ni%20rony"
 console.log(url.replace("%20", "-"))
 
-console.log(url.includes("sunny"))
+console.log(url.includes("sunny")) //true / false value return kore
 
 
-console.log(stringName.split('-'))
+console.log(stringName.split('-')) //Split a string into substrings using the specified separator and return them as an array.
 
